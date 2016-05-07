@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dVi-4K-aXX">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="u0T-gB-5We">
+            <objects>
+                <navigationController id="dVi-4K-aXX" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="quu-Xu-QcT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="pBx-4p-wxG" kind="relationship" relationship="rootViewController" id="JY0-Yp-1cM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mbO-Cv-l18" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-593" y="228"/>
+        </scene>
+        <!--瀑布流布局-->
+        <scene sceneID="fCL-xK-jMy">
+            <objects>
+                <viewController id="pBx-4p-wxG" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uvV-Yz-LcV"/>
+                        <viewControllerLayoutGuide type="bottom" id="hlu-ye-v6d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RC4-oH-90x">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="瀑布流布局" id="kJU-zd-iaI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0iR-7b-dQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="228"/>
+        </scene>
+    </scenes>
+</document>
