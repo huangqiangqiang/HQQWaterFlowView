@@ -14,6 +14,8 @@
 {
     if (self = [super init]) {
         
+        self.backgroundColor = [UIColor whiteColor];
+        
         self.reuseIdentifier = reuseIdentifier;
         
         UILabel *label = [[UILabel alloc] init];

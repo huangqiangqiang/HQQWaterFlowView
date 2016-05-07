@@ -9,15 +9,6 @@
 #import "HQQWaterFlowView.h"
 #import "HQQWaterFlowViewCell.h"
 
-/**
- *  每列的间距
- */
-static NSInteger const HQQWaterFlowViewPerColumnMargin = 10;
-/**
- *  每列的间距
- */
-static NSInteger const HQQWaterFlowViewPerRowMargin = 10;
-
 @interface HQQWaterFlowView ()
 /**
  *  有多少列
@@ -80,6 +71,13 @@ static NSInteger const HQQWaterFlowViewPerRowMargin = 10;
 
 - (void)reloadData
 {
+    [self.displayingCells enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+        [obj removeFromSuperview];
+    }];
+    [self.displayingCells removeAllObjects];
+    [self.reuseCells removeAllObjects];
+    [self.cellFrames removeAllObjects];
+    
     NSInteger numberOfCells = [self.dataSource numberOfItemsInWaterFlowView:self];
     
     CGFloat marginOfTop = [self.delegate waterFlowView:self marginOfType:HQQWaterFlowViewMarginTypeTop];

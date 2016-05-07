@@ -15,6 +15,8 @@
 		53A9720B1CDC498800EBCEC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A972091CDC498800EBCEC8 /* LaunchScreen.storyboard */; };
 		53A972151CDC49D500EBCEC8 /* HQQWaterFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A972141CDC49D500EBCEC8 /* HQQWaterFlowView.m */; };
 		53A9723E1CDC4D7C00EBCEC8 /* HQQWaterFlowViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A9723D1CDC4D7C00EBCEC8 /* HQQWaterFlowViewCell.m */; };
+		53A972401CDDAB1300EBCEC8 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53A9723F1CDDAB1300EBCEC8 /* placeholder.jpg */; };
+		53A972431CDDAB9B00EBCEC8 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A972421CDDAB9B00EBCEC8 /* TestCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		53A972141CDC49D500EBCEC8 /* HQQWaterFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQQWaterFlowView.m; sourceTree = "<group>"; };
 		53A9723C1CDC4D7C00EBCEC8 /* HQQWaterFlowViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQQWaterFlowViewCell.h; sourceTree = "<group>"; };
 		53A9723D1CDC4D7C00EBCEC8 /* HQQWaterFlowViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQQWaterFlowViewCell.m; sourceTree = "<group>"; };
+		53A9723F1CDDAB1300EBCEC8 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		53A972411CDDAB9B00EBCEC8 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		53A972421CDDAB9B00EBCEC8 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +74,8 @@
 				53A971FF1CDC498800EBCEC8 /* AppDelegate.m */,
 				53A972011CDC498800EBCEC8 /* ViewController.h */,
 				53A972021CDC498800EBCEC8 /* ViewController.m */,
+				53A972411CDDAB9B00EBCEC8 /* TestCell.h */,
+				53A972421CDDAB9B00EBCEC8 /* TestCell.m */,
 				53A972041CDC498800EBCEC8 /* Main.storyboard */,
 				53A972071CDC498800EBCEC8 /* Assets.xcassets */,
 				53A972091CDC498800EBCEC8 /* LaunchScreen.storyboard */,
@@ -81,6 +88,7 @@
 		53A971FB1CDC498800EBCEC8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				53A9723F1CDDAB1300EBCEC8 /* placeholder.jpg */,
 				53A971FC1CDC498800EBCEC8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -156,6 +164,7 @@
 			files = (
 				53A9720B1CDC498800EBCEC8 /* LaunchScreen.storyboard in Resources */,
 				53A972081CDC498800EBCEC8 /* Assets.xcassets in Resources */,
+				53A972401CDDAB1300EBCEC8 /* placeholder.jpg in Resources */,
 				53A972061CDC498800EBCEC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53A972031CDC498800EBCEC8 /* ViewController.m in Sources */,
+				53A972431CDDAB9B00EBCEC8 /* TestCell.m in Sources */,
 				53A972151CDC49D500EBCEC8 /* HQQWaterFlowView.m in Sources */,
 				53A972001CDC498800EBCEC8 /* AppDelegate.m in Sources */,
 				53A9723E1CDC4D7C00EBCEC8 /* HQQWaterFlowViewCell.m in Sources */,
@@ -320,6 +330,7 @@
 				53A972111CDC498800EBCEC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
