@@ -66,6 +66,7 @@
 
 - (void)willMoveToSuperview:(UIView *)newSuperview
 {
+    if (newSuperview == nil) return ;
     [self reloadData];
 }
 
